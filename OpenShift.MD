@@ -28,7 +28,7 @@ A Node is a worker machine that runs the workloads of containerized applications
     - **Scheduler**: Assigns workloads (pods) to nodes based on resource availability, affinity, taints, and tolerations.
     - **etcd (Data Store)**: Stores all cluster data and configuration, including pod locations and resource statuses.
 
-2. **Worker Nodes**: Run the actual containerized workloads.
+2. **Worker Nodes**: Run the actual containerized workloads. 
     - **Kubelet**: Runs on each worker node, ensuring that containers are running in the pods as defined.
     - **Kube Proxy**: Manages network traffic and load balancing within the cluster, helping with service discovery.
     - **CRI-O**: Container runtime interface for managing containers, replacing Docker in OpenShift.
